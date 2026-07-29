@@ -1,4 +1,4 @@
-#' bccrWebService: cliente R para indicadores económicos del BCCR
+#' bccr_reportes: cliente R para indicadores económicos del BCCR
 #'
 #' El paquete ofrece una interfaz para consultar el API moderno del Banco
 #' Central de Costa Rica, normalizar series, obtener metadatos, descargar el
