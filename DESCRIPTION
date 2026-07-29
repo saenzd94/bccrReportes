@@ -1,4 +1,4 @@
-Package: bccrWebService
+Package: bccr_reportes
 Type: Package
 Title: Cliente R para el API de Indicadores Económicos del BCCR
 Version: 0.1.0
@@ -6,7 +6,7 @@ Authors@R: person(
     given = "Diego",
     family = "Sáenz C.",
     role = c("aut", "cre"),
-    email = "diego@example.com"
+    email = "servicios@diegosaenz.com"
   )
 Description: Facilita la consulta reproducible del API de indicadores
     económicos del Banco Central de Costa Rica (BCCR). Incluye autenticación
