@@ -1,6 +1,6 @@
-# bccrWebService
+# bccr_reportes
 
-`bccrWebService` es un cliente de R para consultar el API de indicadores
+`bccr_reportes` es un cliente de R para consultar el API de indicadores
 económicos del Banco Central de Costa Rica (BCCR). El paquete nació de las
 funciones utilizadas en los reportes de este proyecto y conserva compatibilidad
 con `BCCR_fun()`.
@@ -18,18 +18,15 @@ con `BCCR_fun()`.
 
 ## Instalación
 
-Desde GitHub, después de sustituir `SU_USUARIO` por la cuenta propietaria del
-repositorio:
-
 ```r
 install.packages("remotes")
-remotes::install_github("SU_USUARIO/bccrWebService")
+remotes::install_github("saenzd94/bccr_reportes")
 ```
 
 También puede instalar una copia local:
 
 ```r
-install.packages("ruta/bccrWebService_0.1.0.tar.gz",
+install.packages("ruta/bccr_reportes_0.1.0.tar.gz",
                  repos = NULL, type = "source")
 ```
 
@@ -41,7 +38,7 @@ El API requiere un token Bearer vigente. Puede registrarse desde la
 Para usar el token únicamente en la sesión actual:
 
 ```r
-library(bccrWebService)
+library(bccr_reportes)
 configurar_token_bccr("SU_TOKEN")
 ```
 
@@ -144,7 +141,7 @@ names(datos)
 Así, un reporte que antes cargaba `funciones/BCCR_fun.R` puede pasar a:
 
 ```r
-library(bccrWebService)
+library(bccr_reportes)
 ```
 
 sin cambiar las llamadas existentes a `BCCR_fun()`.
