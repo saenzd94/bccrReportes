@@ -1,4 +1,4 @@
-# bccrWebService 0.1.0
+# bccr_reportes 0.1.0
 
 - Primera versión pública.
 - Consulta de series y metadatos del API moderno del BCCR.
