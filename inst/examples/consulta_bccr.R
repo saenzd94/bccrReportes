@@ -1,11 +1,11 @@
-# Ejemplo reproducible de uso de bccrWebService.
+# Ejemplo reproducible de uso de bccr_reportes.
 #
 # Antes de ejecutar, obtenga un token del BCCR y configure:
 # Sys.setenv(token_bccr = "SU_TOKEN")
 # o, una sola vez:
 # configurar_token_bccr("SU_TOKEN", persistir = TRUE)
 
-library(bccrWebService)
+library(bccr_reportes)
 
 # Verificar la configuración sin revelar el token.
 bccr_token_configurado()
