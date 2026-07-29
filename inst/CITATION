@@ -1,0 +1,8 @@
+bibentry(
+  bibtype = "Manual",
+  title = "bccrWebService: Cliente R para el API de Indicadores Económicos del BCCR",
+  author = person("Diego", "Sáenz C."),
+  year = "2026",
+  note = "R package version 0.1.0"
+)
+

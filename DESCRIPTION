@@ -1,0 +1,31 @@
+Package: bccrWebService
+Type: Package
+Title: Cliente R para el API de Indicadores Económicos del BCCR
+Version: 0.1.0
+Authors@R: person(
+    given = "Diego",
+    family = "Sáenz C.",
+    role = c("aut", "cre"),
+    email = "diego@example.com"
+  )
+Description: Facilita la consulta reproducible del API de indicadores
+    económicos del Banco Central de Costa Rica (BCCR). Incluye autenticación
+    mediante token Bearer, consulta y normalización de series y metadatos,
+    descarga del catálogo oficial, consultas de múltiples indicadores,
+    reintentos ante fallos transitorios y una función compatible con reportes
+    que utilizan 'BCCR_fun()'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Depends:
+    R (>= 4.1.0)
+Imports:
+    httr,
+    jsonlite,
+    tibble
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+

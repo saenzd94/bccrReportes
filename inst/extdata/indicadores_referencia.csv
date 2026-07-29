@@ -1,0 +1,24 @@
+codigo,variable,grupo
+317,Tipo de cambio de compra,tipo_cambio
+318,Tipo de cambio de venta,tipo_cambio
+3434,Tipo de cambio MONEX apertura,monex
+3435,Tipo de cambio MONEX cierre,monex
+3436,Tipo de cambio MONEX mínimo,monex
+3437,Tipo de cambio MONEX máximo,monex
+3439,Tipo de cambio MONEX promedio ponderado,monex
+3446,MONEX monto total negociado,monex
+3541,Tasa de política monetaria,tasas
+19654,Tasa básica pasiva,tasas
+51,Índice de precios al consumidor,precios
+89638,Inflación interanual,precios
+140,IMAE tendencia ciclo,actividad
+23630,Tasa de desempleo,laboral
+20293,M1,monetario
+304,Reservas internacionales netas BCCR,reservas
+313,Reservas brutas del Banco Central,reservas
+533,Crédito SF al sector privado no financiero,credito
+595,Liquidez total del sistema financiero,liquidez
+741,Tasa activa promedio moneda nacional,tasas
+742,Tasa pasiva bruta promedio moneda nacional,tasas
+823,Encaje bancario requerido o efectivo,encaje
+
