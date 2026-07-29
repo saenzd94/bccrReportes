@@ -1,6 +1,6 @@
 # Contribuir
 
-Gracias por contribuir a `bccrWebService`.
+Gracias por contribuir a `bccr_reportes`.
 
 1. Cree una rama a partir de la rama principal.
 2. Agregue pruebas para cualquier cambio funcional.
