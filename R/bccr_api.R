@@ -135,7 +135,7 @@
       httr::add_headers(
         Authorization = paste("Bearer", token),
         `Content-Type` = "application/json",
-        `User-Agent` = "bccr_reportes/0.1.0"
+        `User-Agent` = "bccrReportes/0.1.0"
       ),
       httr::timeout(parametros$timeout)
     )

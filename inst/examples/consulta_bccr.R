@@ -1,11 +1,11 @@
-# Ejemplo reproducible de uso de bccr_reportes.
+# Ejemplo reproducible de uso de bccrReportes.
 #
 # Antes de ejecutar, obtenga un token del BCCR y configure:
 # Sys.setenv(token_bccr = "SU_TOKEN")
 # o, una sola vez:
 # configurar_token_bccr("SU_TOKEN", persistir = TRUE)
 
-library(bccr_reportes)
+library(bccrReportes)
 
 # Verificar la configuración sin revelar el token.
 bccr_token_configurado()
@@ -35,4 +35,3 @@ compra_compatible <- BCCR_fun(
   fin = Sys.Date(),
   idioma = "ES"
 )
-

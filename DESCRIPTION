@@ -1,4 +1,4 @@
-Package: bccr_reportes
+Package: bccrReportes
 Type: Package
 Title: Cliente R para el API de Indicadores Económicos del BCCR
 Version: 0.1.0
@@ -6,7 +6,7 @@ Authors@R: person(
     given = "Diego",
     family = "Sáenz C.",
     role = c("aut", "cre"),
-    email = "servicios@diegosaenz.com"
+    email = "diego@example.com"
   )
 Description: Facilita la consulta reproducible del API de indicadores
     económicos del Banco Central de Costa Rica (BCCR). Incluye autenticación
@@ -15,6 +15,8 @@ Description: Facilita la consulta reproducible del API de indicadores
     reintentos ante fallos transitorios y una función compatible con reportes
     que utilizan 'BCCR_fun()'.
 License: MIT + file LICENSE
+URL: https://github.com/saenzd94/bccrReportes
+BugReports: https://github.com/saenzd94/bccrReportes/issues
 Encoding: UTF-8
 Language: es
 Depends:
@@ -28,4 +30,3 @@ Suggests:
 Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-

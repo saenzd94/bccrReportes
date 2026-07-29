@@ -160,7 +160,7 @@ validar_suscripcion_bccr <- function(correo, token = NULL, timeout = 60,
 indicadores_bccr_referencia <- function() {
   ruta <- system.file(
     "extdata", "indicadores_referencia.csv",
-    package = "bccrWebService"
+    package = "bccrReportes"
   )
   tibble::as_tibble(
     utils::read.csv(

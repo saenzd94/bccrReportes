@@ -1,6 +1,6 @@
 # Contribuir
 
-Gracias por contribuir a `bccr_reportes`.
+Gracias por contribuir a `bccrReportes`.
 
 1. Cree una rama a partir de la rama principal.
 2. Agregue pruebas para cualquier cambio funcional.
@@ -10,4 +10,3 @@ Gracias por contribuir a `bccr_reportes`.
 
 Los cambios de endpoints deben contrastarse con la documentación oficial del
 BCCR y acompañarse de una prueba que no dependa de credenciales reales.
-
